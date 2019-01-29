@@ -1,0 +1,35 @@
+{
+    "name": "gmi/toolkit-sorter",
+    "description": "Sort interfaces and file sorter",
+    "type": "library",
+    "license": "LGPL-3.0-only",
+    "homepage": "https://github.com/gmitirol/toolkit-sorter",
+    "support": {
+        "issues": "https://github.com/gmitirol/toolkit-sorter/issues"
+    },
+    "authors": [
+        {
+            "name": "Andreas Erhard",
+            "email": "andreas.erhard@i-med.ac.at"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6|^6.5|^7.5",
+        "symfony/phpunit-bridge": "^4.2"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Gmi\\Toolkit\\Sorter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gmi\\Toolkit\\Sorter\\Tests\\": "tests/"
+        }
+    }
+}
+
