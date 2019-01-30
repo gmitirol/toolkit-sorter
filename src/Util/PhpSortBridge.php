@@ -66,6 +66,6 @@ class PhpSortBridge
     {
         $bugErrorMessage = 'usort(): Array was modified by the user comparison function';
         $error = error_get_last();
-        return (PHP_VERSION_ID < 70000 && $error && $error['message'] === $bugErrorMessage);
+        return (PHP_VERSION_ID < 70000 && !empty($error) && $error['message'] === $bugErrorMessage);
     }
 }

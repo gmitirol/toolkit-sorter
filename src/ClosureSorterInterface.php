@@ -12,6 +12,8 @@
 
 namespace Gmi\Toolkit\Sorter;
 
+use Closure;
+
 /**
  * Interface for sorters storing a closure for further use.
  */
