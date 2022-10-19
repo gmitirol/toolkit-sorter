@@ -9,7 +9,6 @@ Files are passed as `SplFileInfo` objects, e.g. as retrieved from Symfony the Fi
 Additonal sort algorithms for reuse will be added in later releases.
 
 The current build status and code analysis can be found here:
-  * [Travis CI](https://travis-ci.org/gmitirol/toolkit-sorter)
   * [Scrutinizer CI](https://scrutinizer-ci.com/g/gmitirol/toolkit-sorter/)
 
 Requirements
